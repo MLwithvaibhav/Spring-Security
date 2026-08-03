@@ -1,5 +1,6 @@
-package com.vaibhav.SpringSecurity;
+package com.vaibhav.SpringSecurity.Controller;
 
+import com.vaibhav.SpringSecurity.Model.Student;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;

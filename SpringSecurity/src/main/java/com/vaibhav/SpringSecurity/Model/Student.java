@@ -1,4 +1,4 @@
-package com.vaibhav.SpringSecurity;
+package com.vaibhav.SpringSecurity.Model;
 
 public class Student {
 
