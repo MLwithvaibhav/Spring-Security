@@ -17,4 +17,10 @@ public class UserController {
     public Users register(@RequestBody Users user) throws Exception{
         return service.register(user);
     }
+
+    @PostMapping ("/login")
+    public String login(@RequestBody Users user) throws Exception{
+        System.out.println(user);
+        return service.verify(user);
+    }
 }
