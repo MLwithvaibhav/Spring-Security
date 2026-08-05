@@ -7,6 +7,6 @@ public class JWTService {
 
 
     public String generateToken() {
-        return "" ;
+        return "hello " ;
     }
 }
